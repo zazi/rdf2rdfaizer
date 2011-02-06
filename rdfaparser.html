@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:bibo="http://purl.org/ontology/bibo/"
+typeof="bibo:Document"
+about="http://zazi.smiy.org/rdfaparser.html"
+version="XHTML+RDFa 1.0">
+<head>
+  <title about="http://zazi.smiy.org/rdfaparser.html" property="dc:title">RDF2RDFa-izer</title>
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+  <base href="http://zazi.smiy.org/rdfaparser.html" />
+  <link about="http://zazi.smiy.org/rdfaparser.html" rel="dc:creator" href="http://foaf.me/zazi#me" />
+</head>
+<body about="http://zazi.smiy.org/rdfaparser.html">
+<h2>RDF2RDFa-izer</h2>
+<p>Please insert a URI of an RDF/XML source document and push the <b>rdfaize</b> button.</p>
+<form action="rdfaparser.php" method="post">
+<p>URI of a RDF/XML source document: <input type="text" size="100" name="rdfdocuri" /> <input type="submit" value="rdfaize" /></p>
+</form>
+<p>The given RDF/XML input will be converted into a (X)HTML+RDFa snippet that can be inserted into a (X)HTML+RDFa document.</p>
+<p>Copyright &#169; <a rel="rdfs:seeAlso" href="http://smiy.org/author/zazi0815/">Bob Ferris</a>, <a 
+rel="rdfs:seeAlso" href="http://smiy.org/">SMI</a>, 2011</p>
+<div property="dc:rights" content="Copyright &#169; Bob Ferris, SMI, 2011"></div>
+<div rel="dc:conformsTo" resource="http://www.w3.org/TR/rdfa-syntax"></div>
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img style="border: 0; float: right; padding: 5px;"
+        src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+        alt="Valid XHTML + RDFa" height="31" width="88" /></a>
+
+  <!-- Creative Commons License -->
+   <a href="http://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border: 0; float: right; padding: 5px;" 
+   src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a> This work is licensed under a <a rel="license dc:license" 
+   href="http://creativecommons.org/licenses/by/3.0/" title="Creative CommonsAttribution License">Creative Commons Attribution License</a>. 
+   This copyright applies to the <em>RDF2RDFa-izer</em> and accompanying documentation. Regarding underlying technology, 
+   the <em>RDF2RDFa-izer</em> uses <a rel="rdfs:seeAlso" href="http://arc.semsol.org/home">ARC</a>, an open Semantic Web framework written in PHP, and the available 
+   <a rel="rdfs:seeAlso" href="http://arc.semsol.org/download/plugins">RDFa Serializer</a> plugin (written by <a rel="rdfs:seeAlso" 
+   href="http://keithalexander.co.uk/">Keith Alexander</a>).</p>
+</body>
+</html> 

@@ -1,0 +1,22 @@
+RDF2RDFa-izer
+=============
+
+RDF2RDFa-izer is currently a deadly simple web frontend of the RDFa Serializer plugin[1] (written by Keith Alexander[2]) for ARC[3], a Semantic Web Framework 
+written in PHP. Its currently functionality is only to take a RDF/XML document as input and serialize it as (X)HTML+RDFa snippet that can be inserted into a
+(X)HTML+RDFa document.
+Further extensions of the existing RDFa Serializer plugin for ARC are imaginable. Some ideas are:
+
+- title/label (/comment/description) extraction of the RDF terms for a better readability
+- templates that are applied when the instance data is typed with a specific universal e.g., foaf:PersonalProfileDocument
+
+Feel free to contribute to this project.
+
+
+(c) Bob Ferris[4], SMI[5], 2011
+
+
+[1] http://n2.talis.com/svn/playground/kwijibo/PHP/arc/plugins/trunk/ARC2_RDFaSerializerPlugin.php
+[2] http://keithalexander.co.uk/
+[3] http://arc.semsol.org/home
+[4] http://smiy.org/author/zazi0815
+[5] http://smiy.org/
