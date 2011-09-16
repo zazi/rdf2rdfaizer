@@ -23,3 +23,8 @@ Feel free to contribute to this project.
 
 
 (c) Bo Ferri, [SMI](http://smiy.org/), 2011
+
+PS
+--
+
+The [old project repository location at SourceForge](http://smiy.svn.sourceforge.net/viewvc/smiy/rdf2rdfaizer/) is now deprecated. All new developments will be pushed to this repository location here at GitHub.
